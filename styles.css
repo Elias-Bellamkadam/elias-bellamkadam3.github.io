@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    color: #fff;
+    font-family: Helvetica;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.center {
+    margin:auto;
+    text-align:center;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}
+
+ul {
+    padding: 0 20px;
+}
+
+li {
+    font-size: 20px;
+}
+
+#bakgrund {
+    width: 100%;
+    height: 100%;
+    background: url('bakgrund.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+    filter: brightness(40%);
+}
+
+#titel {
+    width: calc(100% - 30px);
+    height: auto;
+    background: rgb(4, 59, 153);
+    padding: 15px;
+    position: fixed;
+}
+
+#wrapper {
+    padding: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#logo {
+    height: 60px;
+    position: absolute;
+}
+
+.button {
+    border: none;
+    background: rgb(4, 59, 153);
+    padding: 22px;
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+    border-radius: 25px;
+}
+
+.button p {
+    transition: all 250ms ease-in-out;
+}
+
+.button:hover {
+    background: #69e;
+    box-shadow: 0 0 10px #0008;
+    
+}
+
+.button:hover p {
+    color: #000;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Superstars.html */
+
+.text-input {
+    width: 100%;
+    border: none;
+    background: #fff1;
+    padding: 15px;
+    outline: none;
+}
+
+.text-input::placeholder {
+    color: #fff;
+}
+
+select {
+    background: rgb(4, 59, 153);
+}

@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ 
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="bakgrund"></div>
+
+    <div id="titel">
+        <img src="logo.png" id="logo">
+        <h1>Leksand Superstars</h1>
+    </div>
+
+    <br><br><br><br><br>
+
+    <div id="wrapper">
+        <form>
+            <label for="username">
+                <p>Förnamn:</p>
+            </p>
+            </label><br>
+            <input type="text" id="username" name="username" placeholder="Ange ditt förnamn" class="text-input" required>
+            <br><br>
+            <label for="surname">
+                <p>Efternamn:</p>
+            </label><br>
+            <input type="text" id="surname" name="surname" placeholder="Ange ditt efternamn" class="text-input" required>
+            <br><br><br>
+            <label for="email">
+                <p>E-mail:</p>
+            </label><br>
+            <input type="email" id="email" name="email" placeholder="Ange din e-mail" class="text-input">
+            <br><br>
+            <label for="password">
+                <p>Lösenord:</p>
+            </label><br>
+            <input type="password" id="password" name="password" placeholder="Välj ett Lösenord" class="text-input" required>
+            <br><br>
+            <label for="date">
+                <p>Födelsedatum:</p>
+            </label><br>
+            <input type="date" id="date" name="date" placeholder="(åååå/mm/dd)" class="text-input" required>
+
+            <br><br>
+
+            <p>Välj ditt kön:</p>
+
+            <input type="radio" name=kön value="man" id="option-1">
+            <label for="option-1">Man</label><br>
+            <input type="radio" name=kön value="kvinna" id="option-2">
+            <label for="option-2">Kvinna</label><br>
+            <input type="radio" name=kön value="annat" id="option-3">
+            <label for="option-3">Annat</label>
+
+            <br><br>
+            
+            <label for="question">
+                <p>Vilket är det bästa fotbollslaget?</label>
+            <select name="question" id="question">
+            <option value="q1">Real Madrid</option>
+            <option value="q2">Chelsea</option>
+            </select>
+          
+
+            <br><br>
+            <input type="submit" value="skicka in formuläret" class="button">
+        </form>
+    </div>
+
+
+</body>
+</html>
